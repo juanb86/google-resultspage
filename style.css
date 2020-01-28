@@ -1,0 +1,84 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+.searchBar {
+    float: left;
+    display: block;
+    width: 65%;
+    color: grey;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.searchBar img {
+    float: left;
+    padding-right: 32px;
+}
+
+.searchBar input {
+    width: 70%;
+    float: left;
+}
+
+.navBarTop {
+    overflow: hidden;
+    font-size: 0.9em;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+#navBarAll {
+    margin-left: 10%;
+}
+
+.navBarTop a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBarTop a:hover {
+    text-decoration: underline;
+}
+
+.bodyCenter {
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.bodyCenter a {
+    text-decoration: none;
+}
+
+#about {
+    margin-top: 16%;
+    font-size: 0.9em;
+    margin-left: 3%;
+    color: grey;
+}
+
+.prgphTop {
+    font-size: 0.9em;
+    margin-bottom: 8px;
+}
+
+.prgphLink {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.bodyCenter a:hover {
+    text-decoration: underline;
+}
+
+.prgphText {
+    font-size: 0.9em;
+    margin-top: 4px;
+    margin-bottom: 32px;
+}

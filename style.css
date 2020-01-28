@@ -20,6 +20,15 @@ body {
 .searchBar input {
     width: 70%;
     float: left;
+    background-image: url('images/google-mglass.png');
+    background-size: 25px;
+    background-position: 98% 6px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    padding: 10px 20px 10px 10px;
 }
 
 .navBarTop {
@@ -81,4 +90,30 @@ body {
     font-size: 0.9em;
     margin-top: 4px;
     margin-bottom: 32px;
+}
+
+.navBarBot {
+    overflow: hidden;
+    font-size: 0.9em;
+    float: left;
+    width: 100%;
+    border-top: 1px solid rgb(211, 211, 211);
+    margin-top: 24px;
+}
+
+#navBarHelp {
+    margin-left: 10%;
+}
+
+.navBarBot a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBarBot a:hover {
+    text-decoration: underline;
 }
